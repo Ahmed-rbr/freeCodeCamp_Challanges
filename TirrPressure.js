@@ -24,7 +24,7 @@ function tireStatus(pressuresPSI, rangeBar) {
 
   return pressuresPSI.map((p) => {
     if (minPsi > p) return "Low";
-    if (maxPsi < p) return "Max";
+    if (maxPsi < p) return "High";
     return "good";
   });
 }
