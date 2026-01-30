@@ -28,4 +28,3 @@ function tireStatus(pressuresPSI, rangeBar) {
     return "good";
   });
 }
-console.log("ji");
